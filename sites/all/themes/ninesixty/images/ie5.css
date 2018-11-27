@@ -1,0 +1,20 @@
+#site-name a {top:-65px;left:45px}
+#site-slogan {top:-60px;left:90px}
+#site-subheader {margin-top:-130px;}
+#inno-site-header {margin-top:0;
+  overflow:hidden; ); /* sets max-height for IE */
+
+}
+#bottom_rite{margin-top:-10px;color:white}
+#bottom_rite a{color:white}
+.social_network {margin:30px 20px}
+
+div.views-slideshow-ddblock-cycle-vsd-upright-20p div.views-slideshow-ddblock-prev-next-slide a.prev {
+    background: url("../images/cs_leftImg_ie.png") no-repeat;}
+#adya_addressbottom {
+    background: url("../images/templatemo_top_row_divider_ie.png") no-repeat;}
+div.views-slideshow-ddblock-cycle-vsd-upright-20p div.slide-read-more a {
+    bottom: 0px;
+   height:20px !important;   
+   right:100px;
+} 

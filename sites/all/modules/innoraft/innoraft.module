@@ -1,0 +1,14 @@
+<?php
+// $Id: innoraft.module,v 1.0 2011/06/21 10:00:0 mukesh.agarwal17 Exp $
+
+function innoraft_form_alter(&$form, &$form_state, $form_id) {
+  // print $form_id;
+  switch($form_id) {
+    case 'views_exposed_form':
+    	// dsm($form);
+      if ($form['#parameters'][1]['view']->name == 'search_projects') {
+    		$form['submit']['#value'] = 'Search';
+      }
+      break;
+  }
+}

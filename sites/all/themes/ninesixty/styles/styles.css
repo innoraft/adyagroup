@@ -1,0 +1,350 @@
+/* $Id: styles.css,v 1.1 2009/01/31 21:28:46 dvessel Exp $ */
+
+h1#site-name {
+  margin-bottom: 0;
+}
+
+#site-header,
+#site-subheader,
+#footer-region,
+.column,
+.node,
+.comment,
+.block {
+  margin-bottom: 1.5em;
+}
+
+/*
+** Formatting for administration page
+**
+** The admin panel styles are a mess. IE has problems with this so this is
+** only a temporary fix. This should be fixed in core.
+*/
+div.admin-panel {
+  padding: 0;
+}
+
+div.admin-panel .body {
+  padding: 0 !important;
+}
+
+div.admin .left,
+div.admin .right {
+  width: 50%;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+div.admin .right .admin-panel {
+  margin-left: 10px;
+}
+/*****************************************innoraft************************************/
+body,html {
+    color: #000000;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 13px;
+    line-height: 1.5em;
+    min-width:900px;
+margin:0;padding:0;
+}
+#page{width:100%;}
+#inno-site-header{background: url("../images/templatemo_top_row.jpg") repeat-x scroll 0 0 transparent;
+    height: 150px;
+    width: 100%;
+margin-top:20px}
+#site-header{
+width:960px;
+margin:0 auto;
+}
+#main{width:100%;
+background: #D8D3BD;
+margin:0;   }
+.front #main{width:100%;
+background: url("../images/templatemo_slider.jpg") repeat-x scroll 0 0 transparent;
+margin:0;   }
+#main-content{margin:20px auto;
+float:none;
+display:block;
+width:800px;}
+#branding{width:400px;margin: 45px 0 0;position: relative;
+    top: -10px;}
+#site-name{width:260px;margin-left: 60px;}
+#logo img{
+box-shadow: 2px 2px 3px #B5C9D5;
+-webkit-box-shadow: 2px 2px 3px #B5C9D5; /* Safari */}
+#site-name a{
+color: #FFFFFF !important;
+text-shadow: 2px 2px 3px #B5C9D5;
+    font-size: 30px !important;
+    position: relative;
+    top: 16px;
+font-weight: bold;
+    letter-spacing: 2px;
+    text-align: left;
+font-family: Georgia,"Times New Roman",Times,serif;
+text-decoration:none;}
+#site-slogan{position:relative;top:25px;left:50px;color:#CDCCBE; width: 200px;}
+#site-subheader{
+width:500px;float:left;margin-top:-80px;}
+#wrap-site-subheader{float:right;}
+#site-subheader .grid-14{
+width:auto;}
+#nice-menu-1{float:right;}
+ul.links {
+    float: right;}
+.links.main-menu{margin:0px 0;}
+#nice-menu-1 li {    background:none ;border:none;
+    display: block;
+    float: left;
+    font-size: 17px;
+    font-weight: normal;
+    margin-left: 10px;
+    outline: medium none;
+   
+    position: relative;
+    text-align: center;}
+ #nice-menu-1 li a{text-decoration: none;color: #D8D3BD;padding:10px 18px;
+transition:width 2s, height 2s, background 1s,color 1s;
+-moz-transition:width 2s, height 2s,background 1s,color 1s, -moz-transform 2s; /* Firefox 4 */
+-webkit-transition:width 2s, height 2s,background 1s,color 1s, -webkit-transform 2s; /* Safari and Chrome */
+-o-transition:width 2s, height 2s,background 1s,color 1s, -o-transform 2s; /* Opera */}
+
+ #nice-menu-1 .menuparent  li{display:inline;float:left;clear:none;padding:0;}
+ #nice-menu-1 .menuparent  li a{padding:10px 18px;font-size:12px;}
+ul.nice-menu ul li {
+    width: auto;
+}
+#header-region{float:left;}
+#header-region ul.nice-menu ul{display:inline;padding:0;margin-top:20px;width:700px;margin-left:-150px;}
+#header-region ul.nice-menu-down li.menuparent {
+    background: none !important;
+}
+#header-region ul.nice-menu li {border:none ;
+font-family: Georgia,"Times New Roman",Times,serif;}
+#nice-menu-1 li .active,#nice-menu-1 li.active-trail>a{
+ background: none repeat scroll 0 0 #D8D3BD; 
+    color: #000000;
+}
+#nice-menu-1 li a:hover{ background:#EAE4CB;  color: #000000;}
+a{outline:0;}
+.breadcrumb, #page-title{ width:800px;margin:0 auto;display:block}
+#page-title{
+ color: #333333;
+    font-size: 40px;
+    padding: 5px 0;}
+h2 a{color:#333333;text-decoration:none;}
+#page-title{margin-top:20px;margin-bottom:50px;}
+a.popups-processed {
+    background: none;
+}
+ul.primary {
+    border-bottom: 2px solid #333333;
+    width:420px;
+    position:relative;
+    bottom:30px;
+    left:240px;
+}
+.page-node ul.primary {
+    border-bottom: 2px solid #333333;
+    width:420px;
+    position:relative;
+    bottom:10px;
+    left:240px;
+}
+ul.primary li a {
+outline:0;
+    background: none ;
+    color:#332e2a;
+    border: none;
+    position:relative;
+    bottom:10px;
+    padding:10px;
+transition:width 2s, height 2s, background 1s,color 1s;
+-moz-transition:width 2s, height 2s,background 1s,color 1s, -moz-transform 2s; /* Firefox 4 */
+-webkit-transition:width 2s, height 2s,background 1s,color 1s, -webkit-transform 2s; /* SaEDF1F4fari and Chrome */
+-o-transition:width 2s, height 2s,background 1s,color 1s, -o-transform 2s; /* Opera */}
+ul.primary li a:hover {background:#332e2a;color:#d8d3bd}
+ul.primary li.active a { background:#332e2a;color:#d8d3bd;
+    border: none;}
+ul.primary li.ui-tabs-selected a{background:#332e2a;color:#d8d3bd}
+.popups-box{background: none repeat scroll 0 0 #909088;
+    color: #4B4A4A;}
+.popups-title{background:#d8d3bd;color:#332e2a;}
+.popups-close a{text-decoration:none;font-weight: bold;font-size:14px;}
+#inno-top-header{width:100%;position:fixed;top:0;z-index:100;background:none repeat scroll 0 0 #F5F4E6;border-bottom:solid 1px white;
+-moz-box-shadow: 3px 3px 5px #888888; /* Firefox 3.6 and earlier */
+-webkit-box-shadow: 3px 3px 5px #888888; /* Safari */
+box-shadow: 3px 3px 5px #888888;}
+#inno-top-header .company_name{font-weight:bold;margin:0 5px 0 10px;text-shadow:1px 1px 2px #707172;}
+#inno-top-header .slogan{color:#575858;font-family:Georgia,"Times New Roman",Times,serif;}
+#inno-top-header .search{background: none repeat scroll 0 0 #575858;
+    color: #F5F4E6;
+    font-family: Georgia,"Times New Roman",Times,serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 12px 0px 0 220px;
+    padding: 5px 20px;
+    position: relative;
+    top: 5px;
+border-radius:0 0 9px 9px;
+-moz-border-radius:0 0 9px 9px;
+-moz-box-shadow: 1px 1px 2px #888888; /* Firefox 3.6 and earlier */
+-webkit-box-shadow: 1px 1px 2px #888888; /* Safari */
+box-shadow: 1px 1px 2px #888888; }
+#inno-top-header .call{color: #434343;font-family:verdana,arial,Georgia,"Times New Roman",Times,serif;background:url("../images/old-telephone-icon.png") no-repeat scroll 30px 3px #B8BBBC;padding: 6px 70px;font-weight:14px;font-weight:bold;}
+.field-field-project-picture{float:left;margin:10px 20px 10px 10px}
+.field-field-project-picture img{background:#434343;border:1px solid white;padding:6px;}
+.field-field-project-brief-info{padding-top:20px;margin-bottom:-20px}
+.field-field-project-brief-location{padding-top:20px}
+.view-all-projects h2,.view-past-projects h2,.view-current-projects h2,.view-future-projects h2,.view-search-projects h2{border-bottom:1px solid;padding-bottom:20px;
+-moz-box-shadow: 0 1px #fff; /* Firefox 3.6 and earlier */
+-webkit-box-shadow: 0 1px #fff; /* Safari */
+box-shadow: 0 1px #fff; }
+.view-all-projects .node,.view-past-projects .node,.view-current-projects .node,.view-future-projects .node,.view-search-projects .node{margin-bottom:60px;padding:5px}
+.node ul.ui-tabs-nav.primary {
+    border-bottom: none;
+    bottom: -20px;
+    left: -0px;
+    margin-top: 14px;
+    position: relative;
+    width: 420px;
+    font-weight:bold;
+    font-size:16px;}
+.node #tabs-tabset .tabs-tabset{margin-top:40px;border:1px solid;padding:30px;}
+#tabset-tab-6{display:inline-block}
+.node-form .tabs-tabset{margin-top:40px;border:1px solid;padding:10px}
+#adya_bottomline strong{font-size:25px;font-weight:bold;}
+#adya_bottomline{color:white;width:300px;margin:10px 10px 10px 0px;padding:20px 0px;font-family:Lucida Grande;font-size:20px;line-height:1.5em;float:left}
+#adya_addressbottom{background: url("../images/templatemo_top_row_divider.png") no-repeat ;color:white;padding:15px 0px 0px 70px;font-family:Lucida Grande;float:left}
+#adya_addressbottom bold{font-size:15px;font-weight:bold;}
+#footer{ background: url("../images/templatemo_top_row.jpg") repeat scroll 0 0 transparent;
+    height: 150px;
+    margin-top: 20px;
+    width: 100%;
+clear:both;
+position:relative;
+top:-10px;
+padding:0}
+#adya_bottompic{background: url("../images/bottom_building.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 126px;
+    width: 144px;
+	margin:10px;}
+#adya_bottompic img{margin:10px 0 0 30px}
+#bottom_rite{clear:both;color:#434343;float:right;padding:0 30px;width:520px;}
+.adya_bottom{margin:0px 30px 0 0px}
+.inno_bottom a{text-decoration:none; color:#434343}
+.field-field-project-floor-plan-ref .field-item{margin:10px 5px 15px;padding-bottom:10px;border-bottom:1px solid black;
+-moz-box-shadow: 0 1px #fff; /* Firefox 3.6 and earlier */
+-webkit-box-shadow: 0 1px #fff; /* Safari */
+box-shadow: 0 1px #fff;}
+.field-field-project-floor-plan-ref .field-item a{color:#434343;text-decoration:none;}
+.field-field-project-floor-plan-ref .field-item .field-field-floor-plan-type .field-item,.field-field-project-floor-plan-ref .field-item .field-field-floor-plan-plan .field-item{padding:0;margin:0;border:none;
+box-shadow:0 0px #FFFFFF ;
+-moz-box-shadow: 0 0px #FFFFFF; /* Firefox 3.6 and earlier */
+-webkit-box-shadow: 0 0px #FFFFFF; /* Safari */}
+.field-field-project-floor-plan-ref .field-item .field-field-floor-plan-plan{margin-top:10px;}
+.field-field-project-flat-types .field-item{margin-bottom:15px}
+.field-field-project-flat-types .field-item .field-field-flat-type-bhk .field-item,.field-field-project-flat-types .field-item .field-field-flat-type-size .field-item,.field-field-project-flat-types .field-item .field-field-flat-type-price .field-item{margin:0}
+.field-field-project-flat-types .field-item .field-field-flat-type-bhk .field-item{font-weight:bold;font-size:14px;}
+.node .field.field-type-filefield.field-field-project-picture{float:none}
+.view-all-projects .node .field.field-type-filefield.field-field-project-picture,.view-future-projects .node .field.field-type-filefield.field-field-project-picture,.view-past-projects .node .field.field-type-filefield.field-field-project-picture,.view-current-projects .node .field.field-type-filefield.field-field-project-picture,.view-search-projects .node .field.field-type-filefield.field-field-project-picture{float:left}
+.social_network{float:left;margin:30px 50px; display: none;}
+#footer .social_network a {
+    display: block;
+    height: 40px;
+    text-indent: -3000px;
+    width: 30px;
+}
+#footer .social_network .facebook {
+    background: url("../images/facebook-icon.png") no-repeat scroll -4px 0 transparent;
+    float: left;
+    height: 40px;
+    margin-right: 20px;
+    width: 35px;
+box-shadow:4px 4px 5px black;
+-moz-box-shadow:4px 4px 5px black; /* Firefox 3.6 and earlier */
+-webkit-box-shadow: 4px 4px 5px black; /* Safari */
+}
+#footer .social_network .twitter {
+    background: url("../images/twitter-icon.png") no-repeat scroll -4px 0 transparent;
+    float: left;
+    height: 40px;
+    margin-right: 20px;
+    width: 35px;
+box-shadow:4px 4px 5px black;
+-moz-box-shadow:4px 4px 5px black; /* Firefox 3.6 and earlier */
+-webkit-box-shadow: 4px 4px 5px black; /* Safari */
+}
+ul.nice-menu-right, ul.nice-menu-left, ul.nice-menu-right li, ul.nice-menu-left li {
+    width: auto;
+}
+ul.nice-menu, ul.nice-menu ul {
+    border-top: none;   
+}
+.field.field-type-filefield.field-field-project-status .field-items .field-item{float:left;}
+#contact-mail-page .form-item label {
+   float:left;
+}
+.popups-box input {
+    border: 2px solid white;
+    margin-left:20px ;
+    width: 50%;
+}
+#contact-mail-page #edit-message-wrapper label{float:none}
+#edit-submit {
+   
+    width: auto;
+}
+#edit-name{margin-left:92px;}
+#edit-mail{margin-left:30px;}
+#edit-subject{margin-left:117px;}
+#edit-field-contact-phone{margin-left:0px}
+#edit-field-contact-phone-wrapper .field-prefix{margin-left:109px}
+#inno-top-header .search a{text-decoration:none; color:white}
+.popups-title .popups-close a {
+    color: #470402;margin-right:5px
+}
+.popups-title div.title {
+    float: left;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#contact-mail-page a {
+    color: #066185;
+    outline: 0 none;
+    text-decoration: none;
+}
+#inno-header-width,#footer_inner_width{width:950px;margin-left:auto;margin-right:auto}
+#views-exposed-form-search-projects-page-1{margin-bottom:20px}
+#edit-location{border: 2px solid white;}
+#edit-submit-search-projects,#edit-type{background:#7A7A7A;color:white}
+.views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: 19px;
+}
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-size: 0; /* NEW! See http://drupal.org/node/281106#comment-1345134 */
+  }
+/* IE Mac/Win fixes below */
+.clearfix {
+  display: inline-block; /* For IE/Mac */
+  }
+/* Hides from IE/Mac \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* End hide from IE/Mac */
+.modalframe .ui-dialog-titlebar {
+  background-color: #424750;
+  border: 1px solid #000000;
+}
+.modalframe {
+    border: 2px solid #000000;
+}
+.modalframe-page-wrapper, .modalframe-page-container {
+	background: none repeat scroll 0 0 #A6A3A3;
+}

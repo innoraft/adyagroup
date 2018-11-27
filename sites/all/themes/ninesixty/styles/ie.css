@@ -1,0 +1,21 @@
+div.views-slideshow-ddblock-cycle-vsd-upright-20p div.slide-title h2 {
+  margin:0;}
+ h2{margin-top:0px}
+ div.views-slideshow-ddblock-cycle-vsd-upright-20p div.slide-read-more-horizontal a {
+    right: 50px;
+}
+div.views-slideshow-ddblock-cycle-vsd-upright-20p div.slide-read-more-horizontal a:hover {
+    right: 50px;
+}
+div.views-slideshow-ddblock-cycle-vsd-upright-20p div.slide-read-more a {
+    bottom: -20px;
+   height:20px !important;   
+} 
+#bottom_rite {
+  clear:none;
+  padding-top:20px;
+  }
+  #footer {top:-40px}
+  
+  #page-title {padding-bottom:15px;}
+#footer .social_network .facebook {margin-right:10px}
